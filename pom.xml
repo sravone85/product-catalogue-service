@@ -81,6 +81,7 @@
                 <configuration>
                     <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
                     <dockerDirectory>src/main/docker</dockerDirectory>
+                    <dockerHost>tcp://0.0.0.0:4243</dockerHost>
                     
                     <resources>
                         <resource>
