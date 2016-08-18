@@ -3,6 +3,6 @@ applications:
    memory: 350M
    path: ./target/product-catalogue-service-1.0.jar
    instances: 1
-   host: product_catalogue_service
+   host: product
    buildpack: java_buildpack
    domain: mybluemix.net
